@@ -1,0 +1,118 @@
+body {
+	background-image: url(/asets/body-background.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.bienvenido {
+	padding: 10px;
+	margin: 10px;
+	background-image: url(/asets/login-background.jpg);
+	width: 463px;
+	height: 250px;
+	position: relative;
+	left: 650px;
+	bottom: 34px;
+}
+
+img {
+	width: 470px;
+	height: 270px;
+}
+
+.logo {
+	position: relative;
+	left: 195px;
+	top: 250px;
+}
+
+.botones {
+	position: absolute;
+	bottom: 20px;
+	left: 115px;
+}
+
+.link-olvido-contrasena {
+	position: absolute;
+	bottom: 77px;
+	left: 133px;
+	margin: 8px;
+	color: black;
+	text-decoration: none;
+}
+
+h1 {
+	position: absolute;
+	top: -10px;
+	left: 135px;
+}
+
+input {
+	width: 50%;
+	height: 25px;
+}
+
+.input-correo-electronico {
+	position: absolute;
+	top: 54px;
+	left: 120px;
+	padding: 1%;
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: serif;
+	border-radius: 23px;
+}
+
+.input-correo-electronico:focus {
+	outline: none;
+}
+
+.input-contrasena {
+	position: absolute;
+	top: 104px;
+	left: 120px;
+	padding: 1%;
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 23px;
+}
+
+.input-contrasena:focus {
+	outline: none;
+}
+
+::placeholder {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+}
+
+button {
+	background-color: lightslategray;
+	color: black;
+	border: none;
+	font-size: 16px;
+	padding: 9px;
+	text-align: center;
+	border-radius: 30px;
+	cursor: pointer;
+	margin: 2px;
+	transition-duration: 0.4s;
+	display: inline-block;
+	font-family: serif;
+}
+
+.btn-registrame:hover {
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+.btn-iniciar-sesion:hover {
+	background-color: black;
+	color: white;
+	font-size: large;
+}
